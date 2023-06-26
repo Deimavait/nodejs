@@ -43,12 +43,19 @@
       font-size: 10pt;
       font-weight: 500;
     }
-
+    #name {
+      margin-bottom: 0.5rem;
+      border: 1px solid #dfdfdf;
+    }
     #email {
       margin-bottom: 0.5rem;
       border: 1px solid #dfdfdf;
     }
     #password {
+      margin-bottom: 1rem;
+      border: 1px solid #dfdfdf;
+    }
+    #repeated-password {
       margin-bottom: 1rem;
       border: 1px solid #dfdfdf;
     }
