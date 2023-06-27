@@ -124,3 +124,28 @@
     }
   }
 }
+.group-container-div {
+  margin: 0 1rem;
+  h1 {
+    text-align: center;
+    margin: 2rem 0 1.5rem 0;
+    font-size: 14pt;
+    font-weight: 500;
+  }
+  .group-cards {
+    display: flex;
+    flex-wrap: wrap;
+    // align-content: center;
+    // justify-content: flex-start;
+    .card-wrap {
+      border: 1px solid black;
+      margin: 2rem 1.5rem;
+      border-radius: 8px;
+      padding: 1.5rem;
+      width: 100%;
+      .card {
+        text-align: center;
+      }
+    }
+  }
+}

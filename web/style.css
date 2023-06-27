@@ -122,4 +122,28 @@
 }
 .table-container table tr:nth-child(2n) {
   background-color: lightgrey;
+}
+
+.group-container-div {
+  margin: 0 1rem;
+}
+.group-container-div h1 {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+  font-size: 14pt;
+  font-weight: 500;
+}
+.group-container-div .group-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.group-container-div .group-cards .card-wrap {
+  border: 1px solid black;
+  margin: 2rem 1.5rem;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 100%;
+}
+.group-container-div .group-cards .card-wrap .card {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
