@@ -51,6 +51,14 @@
       margin-bottom: 0.5rem;
       border: 1px solid #dfdfdf;
     }
+    #amount {
+      margin-bottom: 0.5rem;
+      border: 1px solid #dfdfdf;
+    }
+    #description {
+      margin-bottom: 0.5rem;
+      border: 1px solid #dfdfdf;
+    }
     #password {
       margin-bottom: 1rem;
       border: 1px solid #dfdfdf;
@@ -64,7 +72,16 @@
       padding: 0.2rem 0.5rem;
       background-color: white;
     }
-
+    #add-btn {
+      border: 1px solid black;
+      padding: 0.2rem 0.5rem;
+      background-color: white;
+    }
+    #register-btn {
+      border: 1px solid black;
+      padding: 0.2rem 0.5rem;
+      background-color: white;
+    }
     h1 {
       font-size: 14pt;
       font-weight: 500;
@@ -77,6 +94,33 @@
       a {
         color: black;
       }
+    }
+  }
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20%;
+  padding-top: 3.5rem;
+  table {
+    border-collapse: collapse;
+    caption {
+      padding-bottom: 3rem;
+      font-size: 14pt;
+    }
+    th {
+      text-align: left;
+      padding: 0.5rem;
+      font-size: 10pt;
+    }
+    td {
+      padding: 0.5rem;
+      font-size: 10pt;
+    }
+
+    tr:nth-child(2n) {
+      background-color: lightgrey;
     }
   }
 }

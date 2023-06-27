@@ -52,6 +52,14 @@
   margin-bottom: 0.5rem;
   border: 1px solid #dfdfdf;
 }
+.form-container form #amount {
+  margin-bottom: 0.5rem;
+  border: 1px solid #dfdfdf;
+}
+.form-container form #description {
+  margin-bottom: 0.5rem;
+  border: 1px solid #dfdfdf;
+}
 .form-container form #password {
   margin-bottom: 1rem;
   border: 1px solid #dfdfdf;
@@ -61,6 +69,16 @@
   border: 1px solid #dfdfdf;
 }
 .form-container form #login-btn {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+}
+.form-container form #add-btn {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+}
+.form-container form #register-btn {
   border: 1px solid black;
   padding: 0.2rem 0.5rem;
   background-color: white;
@@ -77,4 +95,31 @@
 }
 .form-container form h3 a {
   color: black;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20%;
+  padding-top: 3.5rem;
+}
+.table-container table {
+  border-collapse: collapse;
+}
+.table-container table caption {
+  padding-bottom: 3rem;
+  font-size: 14pt;
+}
+.table-container table th {
+  text-align: left;
+  padding: 0.5rem;
+  font-size: 10pt;
+}
+.table-container table td {
+  padding: 0.5rem;
+  font-size: 10pt;
+}
+.table-container table tr:nth-child(2n) {
+  background-color: lightgrey;
 }/*# sourceMappingURL=style.css.map */
