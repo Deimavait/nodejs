@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
       rel="stylesheet"
     />
+    <script src="./login.js" defer></script>
     <title>Login</title>
   </head>
   <body>
@@ -28,13 +29,13 @@
         <h1>Login</h1>
         <label for="email">Email</label>
         <br />
-        <input type="email" id="email" />
+        <input type="email" id="email" required />
         <br />
         <label for="password">Password</label>
         <br />
-        <input type="password" id="password" />
+        <input type="password" id="password" required />
         <br />
-        <input id="login-btn" type="submit" value="Login" />
+        <button id="login-btn" type="submit" value="Login">Login</button>
         <h3>
           Don't have an account?
           <span><a href="./register.html">Register</a></span>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./groups.js" defer></script>
+    <title>Groups</title>
+  </head>
+  <body>
+    <div class="login-top">
+      <div class="frame">
+        <img
+          src="./assets/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png"
+          alt="google-logo"
+        />
+      </div>
+      <h1>Split Bill</h1>
+    </div>
+
+    <div class="group-container-div">
+      <h1>Select Your Group</h1>
+
+      <div class="group-cards"></div>
+    </div>
+    <div class="form-container">
+      <form>
+        <h1>Add Group</h1>
+        <tr>
+          <th>ID</th>
+          <th>Description</th>
+          <th>Amount</th>
+        </tr>
+        <label for="groupID">Group ID:</label>
+        <br />
+        <select name="groupID" id="group-id" required></select>
+        <br />
+        <button id="add-btn-group" type="submit">Add</button>
+      </form>
+    </div>
+  </body>
+</html>

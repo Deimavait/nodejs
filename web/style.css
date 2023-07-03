@@ -44,7 +44,19 @@
   font-size: 10pt;
   font-weight: 500;
 }
+.form-container form #name {
+  margin-bottom: 0.5rem;
+  border: 1px solid #dfdfdf;
+}
 .form-container form #email {
+  margin-bottom: 0.5rem;
+  border: 1px solid #dfdfdf;
+}
+.form-container form #amount {
+  margin-bottom: 0.5rem;
+  border: 1px solid #dfdfdf;
+}
+.form-container form #description {
   margin-bottom: 0.5rem;
   border: 1px solid #dfdfdf;
 }
@@ -52,7 +64,30 @@
   margin-bottom: 1rem;
   border: 1px solid #dfdfdf;
 }
+.form-container form #repeated-password {
+  margin-bottom: 1rem;
+  border: 1px solid #dfdfdf;
+}
+.form-container form #group-id {
+  margin-bottom: 1rem;
+  border: 1px solid #dfdfdf;
+}
 .form-container form #login-btn {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+}
+.form-container form #add-btn-bills {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+}
+.form-container form #add-btn-group {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+}
+.form-container form #register-btn {
   border: 1px solid black;
   padding: 0.2rem 0.5rem;
   background-color: white;
@@ -69,4 +104,61 @@
 }
 .form-container form h3 a {
   color: black;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 20%;
+  padding-top: 3.5rem;
+}
+.table-container .bills-h3 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.table-container table {
+  border-collapse: collapse;
+}
+.table-container table caption {
+  padding-bottom: 3rem;
+  font-size: 14pt;
+}
+.table-container table th {
+  text-align: left;
+  padding: 0.5rem;
+  font-size: 10pt;
+}
+.table-container table td {
+  padding: 0.5rem;
+  font-size: 10pt;
+}
+.table-container table tr:nth-child(2n) {
+  background-color: lightgrey;
+}
+
+.group-container-div {
+  margin: 0 1rem;
+}
+.group-container-div h1 {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+  font-size: 14pt;
+  font-weight: 500;
+}
+.group-container-div .group-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.group-container-div .group-cards .card-wrap {
+  border: 1px solid black;
+  margin: 2rem 1.5rem;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 28%;
+  cursor: pointer;
+}
+.group-container-div .group-cards .card-wrap .card {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

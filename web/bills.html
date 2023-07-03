@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./bills.js" defer></script>
+    <title>Bills</title>
+  </head>
+  <body>
+    <div class="login-top">
+      <div class="frame">
+        <img
+          src="./assets/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13.png"
+          alt="google-logo"
+        />
+      </div>
+      <h1>Split Bill</h1>
+    </div>
+    <div class="table-container">
+      <h3 class="bills-h3">Group's bills</h3>
+      <table></table>
+    </div>
+    <div class="form-container">
+      <form>
+        <h1>Add Bill</h1>
+        <label for="amount">Amount:</label>
+        <br />
+        <input type="number" id="amount" required />
+        <br />
+        <label for="description">Description:</label>
+        <br />
+        <input type="text" id="description" required />
+        <br />
+        <button id="add-btn-bills" type="submit" value="Add">Add</button>
+      </form>
+    </div>
+  </body>
+</html>
