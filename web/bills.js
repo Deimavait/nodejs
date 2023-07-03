@@ -45,7 +45,7 @@ function createRow(id, description, amount) {
   table.appendChild(tr2);
 
   tr2.addEventListener('click', () => {
-    window.location.href = `http://localhost:5500/nodeJsFinal/web/bills.html?groupId=${groupId}`;
+    window.location.href = `/web/bills.html?groupId=${groupId}`;
   });
 }
 

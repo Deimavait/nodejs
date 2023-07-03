@@ -27,7 +27,7 @@ loginBtn.addEventListener('click', async (event) => {
       return;
     }
     localStorage.setItem('token', body.token);
-    window.location.href = 'http://localhost:5500/nodeJsFinal/web/groups.html';
+    window.location.href = 'groups.html';
   } catch (error) {
     console.error(error);
   }

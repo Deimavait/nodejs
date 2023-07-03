@@ -9,7 +9,7 @@ fetch('http://localhost:8080/groups', {
   .then((data) => {
     console.log(data);
     if (data?.error === 'Token is bad') {
-      window.location.href = 'http://localhost:5500/nodeJsFinal/web/login.html';
+      window.location.href = 'login.html';
       return;
     }
   })
@@ -41,7 +41,7 @@ function createCard(groupId, groupName) {
   groupCardsContainer.appendChild(cardWrap);
 
   cardWrap.addEventListener('click', () => {
-    window.location.href = `http://localhost:5500/nodeJsFinal/web/bills.html?groupId=${groupId}`;
+    window.location.href = `/web/bills.html?groupId=${groupId}`;
   });
 }
 

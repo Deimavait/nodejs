@@ -30,8 +30,7 @@ registerBtn.addEventListener('click', async (event) => {
         payload.email.trim() &&
         payload.password.trim()
       ) {
-        window.location.href =
-          'http://localhost:5500/nodeJsFinal/web/login.html';
+        window.location.href = 'login.html';
       } else {
         alert('Fill all required fields');
       }
