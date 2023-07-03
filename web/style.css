@@ -68,12 +68,21 @@
   margin-bottom: 1rem;
   border: 1px solid #dfdfdf;
 }
+.form-container form #group-id {
+  margin-bottom: 1rem;
+  border: 1px solid #dfdfdf;
+}
 .form-container form #login-btn {
   border: 1px solid black;
   padding: 0.2rem 0.5rem;
   background-color: white;
 }
-.form-container form #add-btn {
+.form-container form #add-btn-bills {
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+}
+.form-container form #add-btn-group {
   border: 1px solid black;
   padding: 0.2rem 0.5rem;
   background-color: white;
@@ -103,6 +112,10 @@
   justify-content: center;
   margin: 0 20%;
   padding-top: 3.5rem;
+}
+.table-container .bills-h3 {
+  text-align: center;
+  padding-bottom: 1rem;
 }
 .table-container table {
   border-collapse: collapse;
@@ -136,13 +149,15 @@
 .group-container-div .group-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .group-container-div .group-cards .card-wrap {
   border: 1px solid black;
   margin: 2rem 1.5rem;
   border-radius: 8px;
   padding: 1.5rem;
-  width: 100%;
+  width: 28%;
+  cursor: pointer;
 }
 .group-container-div .group-cards .card-wrap .card {
   text-align: center;
